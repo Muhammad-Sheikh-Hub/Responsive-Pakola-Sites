@@ -1,0 +1,539 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+.fullmain {
+  overflow: hidden;
+}
+.mainnav {
+  width: auto;
+  background-color: #1cc95d;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+}
+.mainlink {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.listlink {
+  width: auto;
+  height: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  margin-bottom: 1px;
+}
+.listlink li {
+  justify-content: space-around;
+  font-size: 15px;
+  font-weight: bold;
+  list-style-type: none;
+  color: white;
+  padding: 20px;
+}
+.navbutton button {
+  width: 100px;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(255, 255, 255);
+  font-weight: bolder;
+  font-size: 15px;
+  color: #1cc95d;
+}
+.navbutton>button:hover {
+  background-color: rgb(149, 179, 16);
+  font-size: 18px;
+}
+.navicon {
+  color: white;
+  font-size: 20px;
+}
+.navicon i {
+  padding: 0px 20px;
+  border-right: 1px solid black;
+}
+.video-2 {
+  width: 100%;
+
+}
+.scrollmark {
+  margin: 60px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.herohead {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #484848;
+  font-size: x-larger;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.heroarrival {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #484848;
+  font-size: x-larger;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.cardimg {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  justify-content: center;
+  align-items: center;
+}
+.cardimg img {
+  width: 200px;
+}
+
+.maincards {
+  margin: 40px 0px;
+  display: flex;
+  justify-content: space-around;
+}
+.totalcard {
+  margin: 50px 0px;
+}
+
+.card {
+  width: 20%;
+}
+
+span > button {
+  background-color: #1cc95d;
+  border-radius: 10px;
+  margin: 3px;
+  width: 50px;
+  height: 40px;
+}
+.cardbut1 {
+  width: 150px;
+}
+
+.cardprice {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.allbutton {
+  background-color: #1cc95d;
+  width: 15%;
+  height: 40px;
+  border-radius: 10px;
+}
+.bottombotton {
+  text-align: center;
+}
+
+.collab {
+  width: 100%;
+  height: 50%;
+}
+
+.stay {
+  text-align: center;
+  margin: 40px 0px;
+}
+.picture{
+  width: 45%;
+}
+
+.main{
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  /* flex-wrap: wrap; */
+  padding: 10px;
+
+}
+.first{
+  padding: 10px;
+}
+.para{
+  font-size: large;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-transform: capitalize;
+  
+}
+h2{
+  color: gray;
+}
+
+.icon{
+  padding: 10px 0px 0px;
+}
+
+#logo{
+  width: 25px;
+
+}
+.second{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+}
+.link{
+  font-size: 1.3rem;
+  color: black;
+  text-decoration: none;
+
+}
+
+.aside-4{
+  padding: 10px;
+}
+
+.awesome i{
+  padding: 10px ;
+}
+.copy{
+  text-align: center;
+  font-size: large;
+  padding: 10px;
+}
+
+@media (max-width:950px){
+  .main{
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      gap: 20px;
+  }
+
+
+}
+
+@media screen and (max-width:410px) {
+  .aside-4{
+      width: 200px;
+      flex-wrap: wrap;
+      font-size: medium;
+      text-align: center;
+  }
+  .para{
+    line-height: 20px;
+    text-align: center;
+    font-size: medium;
+  }
+  .link{
+    font-size: medium;
+  }
+  .aside-4{
+    font-size: medium;
+  }
+
+}
+
+  
+@media only screen and  (max-width: 600px){
+  .mainnav {
+    width: auto;
+    background-color: #1cc95d;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+  }
+  .navimg {
+    margin: auto;
+    justify-content: center;
+  }
+  .mainlink {
+    display: none;
+  }
+  .listlink {
+    width: auto;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    margin-bottom: 1px;
+  }
+  .listlink li {
+    justify-content: space-around;
+    font-size: 15px;
+    font-weight: bold;
+    list-style-type: none;
+    color: white;
+    padding: 20px;
+  }
+  .navbutton button {
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    font-weight: bolder;
+    font-size: 15px;
+    color: #1cc95d;
+  }
+  .navbutton>button:hover {
+    background-color: rgb(149, 179, 16);
+    font-size: 18px;
+  }
+  .navicon {
+    color: white;
+    font-size: 20px;
+  }
+  
+  .navicon i {
+    padding: 0px 20px;
+    border-right: 1px solid black;
+  }
+  .video-2 {
+    width: 100%;
+    height: 100%;
+  }
+  .scrollmark {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .herohead {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: #484848;
+    font-size: x-larger;
+    margin-top: 30px;
+    text-align: center;
+  }
+
+  .heroarrival {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: #484848;
+    font-size: x-larger;
+    margin-top: 30px;
+    text-align: center;
+  }
+
+  .cardimg {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+  }
+  .cardimg img {
+    width: 200px;
+  }
+
+  .maincards {
+    margin: 40px 0px;
+    display: flex;
+    justify-content: space-around;
+    overflow: auto;
+  }
+  .totalcard {
+    margin: 50px 0px;
+  }
+
+  .card {
+    width: 100%;
+    padding: 0% 5px;
+  }
+
+  span > button {
+    background-color: #1cc95d;
+    border-radius: 10px;
+    margin: 3px;
+    width: 50px;
+    height: 40px;
+  }
+  .cardbut1 {
+    width: 150px;
+  }
+
+  .cardprice {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .allbutton {
+    background-color: #1cc95d;
+    width: 15%;
+    height: 40px;
+    border-radius: 10px;
+  }
+  .bottombotton {
+    text-align: center;
+  }
+
+  .collab {
+    width: 100%;
+    height: 50%;
+  }
+
+  .stay {
+   
+    text-align: center;
+    margin: 30px 0px;
+    flex-wrap: wrap;
+
+  }
+  .picture{
+    width: 40%;
+
+  }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 767px) {
+  .mainnav {
+    width: auto;
+    background-color: #1cc95d;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+  }
+  .navimg {
+    margin: auto;
+    justify-content: center;
+  }
+  .mainlink {
+    display: none;
+  }
+  .listlink {
+    width: auto;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    margin-bottom: 1px;
+  }
+  .listlink li {
+    justify-content: space-around;
+    font-size: 15px;
+    font-weight: bold;
+    list-style-type: none;
+    color: white;
+    padding: 20px;
+  }
+  .navbutton button {
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    font-weight: bolder;
+    font-size: 15px;
+    color: #1cc95d;
+  }
+  .navicon {
+    color: white;
+    font-size: 20px;
+  }
+  .navicon i {
+    padding: 0px 20px;
+    border-right: 1px solid black;
+  }
+  .video {
+    width: 100%;
+  }
+  .scrollmark {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .herohead {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: #484848;
+    font-size: x-larger;
+    margin-top: 30px;
+    text-align: center;
+  }
+
+  .heroarrival {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: #484848;
+    font-size: x-larger;
+    margin-top: 30px;
+    text-align: center;
+  }
+
+  .cardimg {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+  }
+  .cardimg img {
+    width: 200px;
+  }
+
+  .maincards {
+    margin: 40px 0px;
+    display: flex;
+    justify-content: space-around;
+    overflow: auto;
+  }
+  .totalcard {
+    margin: 50px 0px;
+  }
+
+  .card {
+    width: 100%;
+    padding: 0% 5px;
+  }
+
+  span > button {
+    background-color: #1cc95d;
+    border-radius: 10px;
+    margin: 3px;
+    width: 50px;
+    height: 40px;
+  }
+  .cardbut1 {
+    width: 150px;
+  }
+
+  .cardprice {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .allbutton {
+    background-color: #1cc95d;
+    width: 15%;
+    height: 40px;
+    border-radius: 10px;
+  }
+  .bottombotton {
+    text-align: center;
+  }
+
+  .collab {
+    width: 100%;
+    height: 50%;
+  }
+
+  .stay {
+    text-align: center;
+    margin: 40px 0px;
+  }
+  .picture{
+    width: 40%;
+  }
+}
